@@ -191,6 +191,4 @@ Class_spam = sum(CM_Gauss_test(2,:));
 P = CM_Gauss_test(2,2) / Class_spam;
 S = CM_Gauss_test(2,2) / All_spam_num;
 E_s = sum(diag(CM_Gauss_test)) / sum(sum(CM_Gauss_test));
-
-E_c = (CM_Gauss_test(2,1) + CM_Gauss_test(1,2))/(sum(sum(CM_Gauss_test)));
-A = 1 - Ec;
+E_c = ()/();
